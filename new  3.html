@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My jQuery Slider</title>
+		
+<!-- include jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+<!-- include Cycle2 -->
+<script src="http://malsup.github.io/min/jquery.cycle2.min.js"></script>
+<script src="http://malsup.github.io/jquery.cycle2.carousel.js"></script>
+	</head>
+	<body>
+		<div class="cycle-slideshow"
+			data-cycle-carousel-visible="5"
+			data-cycle-timeout="0"
+			data-cycle-next="#next"
+			data-cycle-prev="#prev"
+			data-cycle-pager="#pager">
+	<img src="http://malsup.github.io/images/p1.jpg">
+    <img src="http://malsup.github.io/images/p2.jpg">
+    <img src="http://malsup.github.io/images/p3.jpg">
+    <img src="http://malsup.github.io/images/p4.jpg">
+		</div>
+		<div class="Center">
+			<a href="#" id="prev">Prev</a>
+			<a href="#" id="next">Next</a>
+		</div>
+		<div class="cycle-pager" id="pager"></div>
+	</body>
+	
+</html>
