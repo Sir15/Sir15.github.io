@@ -43,7 +43,9 @@
 				float: left;
 				position: relative;
 			}
-			
+			body{
+				background: url("../Images/background.jpg");
+			}
 @media screen and (max-width: 1000px){
 			body{
 						width: 100%;
